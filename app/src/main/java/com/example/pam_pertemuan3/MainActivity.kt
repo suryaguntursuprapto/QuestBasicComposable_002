@@ -68,7 +68,9 @@ fun BasicCompose(guntur: Modifier = Modifier){
             modifier = Modifier.size(300.dp)
         )
         Text(text = "Surya Guntur Suprapto",
-            modifier = guntur
+            modifier = guntur,
+            color = Color.Red,
+
         )
     }
 }
