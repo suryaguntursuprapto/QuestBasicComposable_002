@@ -71,6 +71,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
             modifier = guntur,
             color = Color.Red,
             fontSize = 20.sp,
+            fontFamily = FontFamily.Cursive
         )
     }
 }
