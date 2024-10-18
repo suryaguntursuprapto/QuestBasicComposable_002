@@ -87,6 +87,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.guntur),
             contentDescription = null,
+            modifier = Modifier.size(500.dp)
         )
     }
 }
