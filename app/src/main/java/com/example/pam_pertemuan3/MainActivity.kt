@@ -76,7 +76,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
         Text(text = "20220140002",
             fontWeight = FontWeight.Bold,
             fontSize = 50.sp,
-
+            fontFamily = FontFamily.Monospace
             )
     }
 }
