@@ -70,7 +70,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
         Text(text = "Surya Guntur Suprapto",
             modifier = guntur,
             color = Color.Red,
-
+            fontSize = 20.sp,
         )
     }
 }
