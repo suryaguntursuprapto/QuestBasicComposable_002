@@ -55,7 +55,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally)
     {
         Text(text = "Indonesia", modifier = guntur
-            , fontSize = 70.sp,
+            , fontSize = 50.sp,
             color = Color.Red,
             fontWeight = FontWeight.Bold
         )
