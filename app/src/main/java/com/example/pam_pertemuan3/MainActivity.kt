@@ -67,6 +67,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
             contentDescription = null,
             modifier = Modifier.size(300.dp)
         )
+        Text(text = "Surya Guntur Suprapto",)
     }
 }
 
