@@ -80,6 +80,10 @@ fun BasicCompose(guntur: Modifier = Modifier){
             fontFamily = FontFamily.Monospace,
             textDecoration = TextDecoration.Underline
             )
+        Image(
+            painter = painterResource(id = R.drawable.guntur),
+            contentDescription = null
+        )
     }
 }
 
