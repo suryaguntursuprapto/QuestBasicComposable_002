@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BasicCompose(guntur: Modifier = Modifier){
     val scrollState = rememberScrollState()
-    Column (verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
+    Column (verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize().verticalScroll(scrollState),
         horizontalAlignment = Alignment.CenterHorizontally)
     {
         Text(text = "Indonesia", modifier = guntur
