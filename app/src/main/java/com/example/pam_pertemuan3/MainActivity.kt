@@ -72,7 +72,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
             modifier = guntur,
             color = Color.Red,
             fontSize = 20.sp,
-            fontFamily = FontFamily.Cursive
+            fontFamily = FontFamily.Cursive,
         )
         Text(text = "20220140002",
             fontWeight = FontWeight.Bold,
