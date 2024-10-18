@@ -1,4 +1,6 @@
 package com.example.pam_pertemuan3
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,6 +10,7 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
@@ -47,6 +50,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicCompose(guntur: Modifier = Modifier){
+    val scrollState = rememberScrollState()
     Column (verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally)
     {
@@ -82,7 +86,7 @@ fun BasicCompose(guntur: Modifier = Modifier){
             )
         Image(
             painter = painterResource(id = R.drawable.guntur),
-            contentDescription = null
+            contentDescription = null,
         )
     }
 }
