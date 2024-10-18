@@ -73,7 +73,11 @@ fun BasicCompose(guntur: Modifier = Modifier){
             fontSize = 20.sp,
             fontFamily = FontFamily.Cursive
         )
-        Text(text = "20220140002",)
+        Text(text = "20220140002",
+            fontWeight = FontWeight.Bold,
+            fontSize = 50.sp,
+
+            )
     }
 }
 
